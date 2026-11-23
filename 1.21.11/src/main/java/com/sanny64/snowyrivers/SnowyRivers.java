@@ -1,9 +1,7 @@
 package com.sanny64.snowyrivers;
-
+import java.util.Objects;
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.resources.Identifier;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,11 +18,9 @@ public class SnowyRivers implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
 	}
 
 	public static Identifier id(String path) {
-		return Identifier.fromNamespaceAndPath(MOD_ID, path);
+		return Identifier.fromNamespaceAndPath(MOD_ID, Objects.requireNonNull(path));
 	}
 }

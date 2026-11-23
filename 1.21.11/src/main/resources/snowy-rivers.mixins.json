@@ -3,7 +3,7 @@
 	"package": "com.sanny64.snowyrivers.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"BiomeMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
