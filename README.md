@@ -1,6 +1,6 @@
 # Snowy Rivers
 
-Snowy Rivers is a Serene Seasons Addon for Fabric Minecraft 1.21.11 that enables snow in river biomes without letting them freeze in winter. 
+[Snowy Rivers](https://modrinth.com/mod/snowy-rivers) is a Serene Seasons Addon for Fabric Minecraft 1.21.11 that enables snow in river biomes without letting them freeze in winter. 
 Mostly useful for maintaining realistic stream behavior with Streams Reflowing.
 
 ## Requirements
