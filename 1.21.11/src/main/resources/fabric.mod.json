@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "snowy-rivers",
+	"version": "${version}",
+	"name": "Snowy Rivers",
+	"description": "Snowy Rivers is a Serene Seasons add-on for Fabric Minecraft 1.21.11 that replaces rain with snow in river biomes without letting the rivers and streams freeze in winter.",
+	"authors": [
+		"Sanny64"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/snowy-rivers",
+		"sources": "https://github.com/Sanny64/snowy-rivers"
+	},
+	"license": "MIT",
+	"icon": "assets/snowy-rivers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sanny64.snowyrivers.SnowyRivers"
+		]
+	},
+	"mixins": [
+		"snowy-rivers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"sereneseasons": ">=21.11.0.4"
+	},
+	"suggests": {
+		"streamsreflowing": ">=2.16.2"
+	}
+}
